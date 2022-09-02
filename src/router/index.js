@@ -5,6 +5,10 @@ import MyHome from '../pages/MyHome'
 export default new VueRouter({
   routes: [
     {
+      path: "/",
+      component: MyHome,
+    },
+    {
       path: "/home",
       component: MyHome,
     },

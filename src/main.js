@@ -1,14 +1,17 @@
 import Vue from "vue";
 import App from "./App.vue";
-import ElementUI from 'element-ui';
+// import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import VueRouter from "vue-router";
+import { Button } from 'element-ui';
 import router from "./router";
 
 Vue.config.productionTip = false; // 取消开发提示
 
-Vue.use(ElementUI);
+// Vue.use(ElementUI);
 Vue.use(VueRouter);
+
+Vue.component(Button.name, Button);
 
 /**
  * 第一种方式：使用 VueComponents 实例原型

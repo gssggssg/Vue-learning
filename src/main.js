@@ -5,6 +5,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import VueRouter from "vue-router";
 import { Button } from 'element-ui';
 import router from "./router";
+import store from "./store"
 
 Vue.config.productionTip = false; // 取消开发提示
 
@@ -37,5 +38,6 @@ new Vue({
     Vue.prototype.$bus = this;
   },
   // 引进路由
-  router:router
+  router:router,
+  store,
 }).$mount("#app");

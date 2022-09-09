@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>{{ msg }}</h2>
+    <h2>{{ $store.state.home.msg }}</h2>
   </div>
 </template>
 

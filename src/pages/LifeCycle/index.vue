@@ -9,7 +9,7 @@ export default {
   name: "LifeCycle",
   data() {
     return {
-      msg: "生命周期",
+      msg: "这里是生命周期",
     };
   },
   beforeCreate() {
